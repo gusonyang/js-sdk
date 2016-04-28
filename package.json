@@ -1,15 +1,16 @@
 {
   "name": "qiniu-js",
   "jsName": "qiniu",
-  "version": "1.0.14-beta",
+  "version": "1.0.15-beta",
   "private": false,
   "scripts": {
     "start": "node demo/server.js"
   },
   "description": "Javascript SDK for Qiniu Resource (Cloud) Storage API",
+  "main": "dist/qiniu.js",
   "repository": {
-     "type": "git",
-      "url": "git://github.com/qiniu/js-sdk.git"
+    "type": "git",
+    "url": "git://github.com/qiniu/js-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/qiniu/js-sdk/issues"
@@ -22,17 +23,17 @@
     "web-service"
   ],
   "author": "sdk@qiniu.com",
-   "contributors": [
+  "contributors": [
     {
       "name": "codedogfish",
-      "email": "yujie@qiniu.com"
+      "email": "jackyu@qiniu.com"
     },
     {
       "name": "dengchenhua",
       "email": "dengchenhua@qiniu.com"
     }
   ],
-  "dependencies": {
+  "devDependencies": {
     "bower": "^1.6.8",
     "ejs": "~1.0.0",
     "express": "~3.4.7",
